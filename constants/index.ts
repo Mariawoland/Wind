@@ -69,46 +69,46 @@ export const SUBSCRIPTION = [
 
 export const FAQ = [
     {
-        question: "What security measures are in place to protect my customers' transactions?",
-        answer: "Our platform prioritizes the security of your customers' transactions. We employ advanced security protocols, including encryption and secure authentication methods."
+        question: "What security measures are in place to protect my customers` transactions?",
+        answer: "Our platform prioritizes the security of your customers` transactions. We employ advanced security protocols, including encryption and secure authentication methods."
     },
     {
         question: "How does the Historical Purchase Data API assist in making informed business decisions?",
         answer: "The Historical Purchase Data API provides valuable insights into customer buying patterns and market trends."
     },
     {
-        question: "What security measures are in place to protect my customers' transactions?",
-        answer: "Our platform prioritizes the security of your customers' transactions. We employ advanced security protocols, including encryption and secure authentication methods."
+        question: "What security measures are in place to protect my customers` transactions?",
+        answer: "Our platform prioritizes the security of your customers` transactions. We employ advanced security protocols, including encryption and secure authentication methods."
     },
     {
         question: "How does the Historical Purchase Data API assist in making informed business decisions?",
         answer: "The Historical Purchase Data API provides valuable insights into customer buying patterns and market trends."
     },
     {
-        question: "What security measures are in place to protect my customers' transactions?",
-        answer: "Our platform prioritizes the security of your customers' transactions. We employ advanced security protocols, including encryption and secure authentication methods."
+        question: "What security measures are in place to protect my customers` transactions?",
+        answer: "Our platform prioritizes the security of your customers` transactions. We employ advanced security protocols, including encryption and secure authentication methods."
     },
     {
         question: "How does the Historical Purchase Data API assist in making informed business decisions?",
         answer: "The Historical Purchase Data API provides valuable insights into customer buying patterns and market trends."
     },
     {
-        question: "What security measures are in place to protect my customers' transactions?",
-        answer: "Our platform prioritizes the security of your customers' transactions. We employ advanced security protocols, including encryption and secure authentication methods."
+        question: "What security measures are in place to protect my customers` transactions?",
+        answer: "Our platform prioritizes the security of your customers` transactions. We employ advanced security protocols, including encryption and secure authentication methods."
     }
 ]
 
 export const TESTIMONIALS = [
     {
         name: "E-commerce Entrepreneur",
-        description: "The Product Recommendations API has been a game-changer for my online store! The personalized suggestions have significantly increased customer engagement and boosted our sales. It's like having a virtual personal shopper for each visitor. I'm extremely impressed with the level of customization and the seamless integration into our platform."
+        description: "The Product Recommendations API has been a game-changer for my online store! The personalized suggestions have significantly increased customer engagement and boosted our sales. It`s like having a virtual personal shopper for each visitor. I`m extremely impressed with the level of customization and the seamless integration into our platform."
     },
     {
         name: "Business Owner",
-        description: "As a small business owner, the insights provided by the Historical Purchase Data API have been invaluable. Understanding our customers' buying patterns has allowed us to optimize our inventory, tailor our marketing strategies, and ultimately improve our bottom line. The API is user-friendly, and the data it provides is instrumental in making informed business decisions. Highly recommended!"
+        description: "As a small business owner, the insights provided by the Historical Purchase Data API have been invaluable. Understanding our customers` buying patterns has allowed us to optimize our inventory, tailor our marketing strategies, and ultimately improve our bottom line. The API is user-friendly, and the data it provides is instrumental in making informed business decisions. Highly recommended!"
     },
     {
         name: "Price-Savvy Shopper",
-        description: "I've been using the Price Tracking API to keep an eye on the products I love, and it's been a game-changer for my wallet. The real-time alerts ensure I never miss a deal, and the ability to track prices over time has saved me money on multiple occasions. It's a must-have for any savvy shopper who wants to get the best value for their money!"
+        description: "I`ve been using the Price Tracking API to keep an eye on the products I love, and it`s been a game-changer for my wallet. The real-time alerts ensure I never miss a deal, and the ability to track prices over time has saved me money on multiple occasions. It`s a must-have for any savvy shopper who wants to get the best value for their money!"
     }
 ]

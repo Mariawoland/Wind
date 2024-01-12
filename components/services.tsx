@@ -24,7 +24,7 @@ const Services = () => {
 
             <div className='flex flex-wrap pt-10'>
                 {SERVICES.map((item) => (
-                    <div className='sm:p-5 pb-5 lg:w-1/3 md:w-1/2 w-full'>
+                    <div key={item.title} className='sm:p-5 pb-5 lg:w-1/3 md:w-1/2 w-full'>
                         <div className='bg-white sm:p-7 p-5 rounded-3xl overflow-hidden flex flex-col justify-center items-center gap-7 h-full'>
                             <div className='w-32 h-32'>
                                 <img src={item.icon} className='w-full' />

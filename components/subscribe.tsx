@@ -39,7 +39,7 @@ const Subscribe = () => {
 
                 <hr className='h-[2px] bg-white border-0 mb-6' />
 
-                <p className='bg-white rounded-3xl p-5 mb-6 text-sm'>We value your feedback, questions, and inquiries. Whether you're a customer, partner, or just curious, we're here to assist you. Reach out to us through the provided form, and our dedicated team will respond promptly. Your satisfaction is our priority, and we appreciate your interest in connecting with us. If you prefer, you can also reach us via email or phone.</p>
+                <p className='bg-white rounded-3xl p-5 mb-6 text-sm'>We value your feedback, questions, and inquiries. Whether you`re a customer, partner, or just curious, we`re here to assist you. Reach out to us through the provided form, and our dedicated team will respond promptly. Your satisfaction is our priority, and we appreciate your interest in connecting with us. If you prefer, you can also reach us via email or phone.</p>
 
                 <form ref={form} onSubmit={sendEmail} className="md:bg-white flex md:flex-row flex-col gap-4 w-full md:rounded-3xl md:border-2 border-white overflow-hidden">
 

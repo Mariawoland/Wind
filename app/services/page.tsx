@@ -18,7 +18,7 @@ const page = () => {
                 <div className='flex flex-wrap w-full'>
                     {SERVICES.map((item) => (
 
-                        <div className='p-5 lg:w-1/2 w-full' id={item.title}>
+                        <div key={item.title} className='p-5 lg:w-1/2 w-full' id={item.title}>
 
                             <div className='pt-7 px-7 sm:border-t-4 border-t-2  border-blue rounded-t-2xl flex sm:flex-row flex-col gap-6 justify-center items-center'>
 
