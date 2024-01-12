@@ -5,7 +5,7 @@ import Footer from '@/components/footer';
 import { FAQ } from '@/constants';
 import '@/app/globals.css';
 
-const page = () => {
+const Page = () => {
 
     const form = useRef(null);
 
@@ -80,7 +80,7 @@ const page = () => {
 
                     <div className='flex flex-col h-[430px] pe-4 editScroll overflow-auto'>
                         {FAQ.map((item) => (
-                            <div className='border-2 mt-4 w-full shrink-0 rounded-3xl border-blue p-4 overflow-hidden'>
+                            <div key={item.question} className='border-2 mt-4 w-full shrink-0 rounded-3xl border-blue p-4 overflow-hidden'>
                                 <h2 className='font-semibold'>{item.question}</h2>
                                 <p className='text-sm'>{item.answer}</p>
                             </div>
@@ -99,4 +99,4 @@ const page = () => {
     )
 }
 
-export default page;
+export default Page;

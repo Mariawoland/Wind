@@ -24,7 +24,7 @@ const Subscription = () => {
 
                 {SUBSCRIPTION.map((item) => (
 
-                    <div className='p-5 lg:w-1/3 w-full'>
+                    <div key={item.title} className='p-5 lg:w-1/3 w-full'>
 
                         <div className='border-2 border-blue p-7 rounded-3xl overflow-hidden flex lg:flex-col sm:flex-row  flex-col justify-center items-center gap-7 h-full'>
 
