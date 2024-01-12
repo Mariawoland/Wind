@@ -79,8 +79,8 @@ const Page = () => {
                     <h1 className='sm:text-5xl text-3xl text-blue font-semibold text-center pb-6'>FAQ.</h1>
 
                     <div className='flex flex-col h-[430px] pe-4 editScroll overflow-auto'>
-                        {FAQ.map((item) => (
-                            <div key={item.question} className='border-2 mt-4 w-full shrink-0 rounded-3xl border-blue p-4 overflow-hidden'>
+                        {FAQ.map((item, index) => (
+                            <div key={index} className='border-2 mt-4 w-full shrink-0 rounded-3xl border-blue p-4 overflow-hidden'>
                                 <h2 className='font-semibold'>{item.question}</h2>
                                 <p className='text-sm'>{item.answer}</p>
                             </div>
